@@ -8,3 +8,7 @@ This prototype for creating live visuals in dance performance uses Isadora (a re
 https://troikatronix.com/plugin/rutt-etra-for-isadora-2/ 
 https://troikatronix.com/plugin/tt-ffgl-for-isadora-2-3/ and
 https://support.troikatronix.com/support/solutions/articles/13000047284-isadora-2-troikatronix-freeframegl-pack
+
+### instructions to run
+After installing Isadora v2.6.1 and the plug-ins listed above, you can run and work with the mocap-avatar patch. There is a simple GUI (called controll interface in Isadora), which allows you to manipulate certain parameters in each scene. To see the programming level "underneath" go to the menu/view/Actor/Control Split.
+Note that this patch serves to demonstrate the prototype. In the (real world) rehearsal scenario all "movie player" modules are substituted by live video feeds (Syphon or Sprout servers). Additionally all parameters available through the GUI can be controlled by incoming OSC values from the Motion Capture system.
